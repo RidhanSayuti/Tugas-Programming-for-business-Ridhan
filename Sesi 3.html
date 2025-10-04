@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Pendaftaran</title>
+  <link rel="stylesheet" href="Sesi 3.css">
+</head>
+<body>
+  <div class="card">
+    <h2>Form Pendaftaran</h2>
+    <form>
+      <label for="input-nama">Nama Lengkap</label>
+      <input type="text" id="input-nama" name="nama">
+
+      <label for="input-email">Alamat Email</label>
+      <input type="email" id="input-email" name="email">
+
+      <label for="input-hp">Nomor HP</label>
+      <input type="tel" id="input-hp" name="hp">
+
+      <label>Jenis Kelamin</label>
+      <div class="radio-group">
+        <label><input type="radio" name="gender" value="pria"> Pria</label>
+        <label><input type="radio" name="gender" value="wanita"> Wanita</label>
+      </div>
+
+      <label>Minat</label>
+      <div class="checkbox-group">
+        <label><input type="checkbox" name="minat" value="musik"> Musik</label>
+        <label><input type="checkbox" name="minat" value="olahraga"> Olahraga</label>
+        <label><input type="checkbox" name="minat" value="membaca"> Membaca</label>
+      </div>
+
+      <label for="input-lahir">Tanggal Lahir</label>
+      <input type="date" id="input-lahir" name="lahir">
+
+      <label for="input-sosmed">Full Address</label>
+      <input type="text" id="input-sosmed" name="sosmed">
+
+      <label for="select-jurusan">Jurusan</label>
+      <select id="select-jurusan" name="jurusan">
+        <option value="">-- pilih jurusan --</option>
+        <option value="si">Sistem Informasi</option>
+        <option value="dkv">Desain Komunikasi Visual</option>
+        <option value="manajemen">Manajemen</option>
+      </select>
+
+      <input type="submit" value="Daftar">
+    </form>
+  </div>
+</body>
+</html>
